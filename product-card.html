@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card</title>
+  <link rel="stylesheet" href="./styles/main.scss">
+  <link rel="stylesheet" href="./styles/fonts.scss">
+  <script src="./main.js" defer></script>
+</head>
+  <body class="page__body">
+    <header class="header-card">
+      <div class="container">
+        <div class="top-content">
+          <div class="top-bar">
+            <a href="#" class="top-bar__logo-link">
+              <img 
+                class="top-bar__logo"
+                src="images/logo-2x.png"
+                alt="My bike logo"
+              >
+            </a>
+        
+            <div class="top-bar__icons">
+              <a href="#menu" class="icon icon--menu"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+  <aside class="menu page__menu" id="menu">
+    <div class="container">
+      <div class="top-bar menu__top">
+        <a href="#" class="top-bar__logo-link">
+          <img 
+            class="top-bar__logo-side"
+            src="images/logo-white.svg"
+            alt="My bike logo"
+          >
+        </a>
+
+        <a href="#" class="icon icon--close">
+        </a>
+      </div>
+
+        <img class="icon-curly"  src="images/curly.svg">
+        <img class="icon-star"  src="images/star.svg">
+        <img class="icon-star--2"  src="images/star.svg">
+        <img class="icon-star--3"  src="images/star.svg">
+        <img class="icon-frame"  src="images/Frame.svg">
+
+      <div class="menu__bottom">
+        <nav class="nav menu__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about-us" class="nav__link">About us</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="#shop" class="nav__link">Shop</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="#founders" class="nav__link">Founders</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact-us" class="nav__link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a 
+          href="tell: +1 234 555-55-55" 
+          class="menu__call menu__phone-number"
+        >
+          +1 234 555-55-55
+        </a>
+        <a href="tell: +1 234 555-55-55"
+           class="menu__call menu__call-to-order">
+           Book a test ride
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <section class="compare" id="compare-bikes">
+
+
+		<div class="column">
+      <!-- <img id="slideLeft" class="arrow" src="images/arrow-left.svg"> -->
+
+			<img id="featured" src="images/slide1.png">
+      <!-- <img id="slideRight" class="arrow" src="images/arrow-right.svg"> -->
+
+			<div id="slide-wrapper">
+
+				<div id="slider">
+					<img class="thumbnail active" src="images/slide1.png">
+					<img class="thumbnail" src="images/slide2.png">
+					<img class="thumbnail" src="images/slide3.png">
+
+					<img class="thumbnail" src="images/slide4.png">
+					<img class="thumbnail" src="images/slide5.png">
+
+				</div>
+			</div>
+		</div>
+
+		<div class="column">
+			<h1>Awesome Shoes</h1>
+			<hr>
+			<h3>$89.99</h3>
+
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+			<input value=1 type="number">
+			<a class="btn btn-dark" href="#">Add to Cart</a>
+		</div>
+
+	</div>
+
+
+    <div class="product">
+      <div class="product__images">
+          <img
+              src="images/slide1.png"
+              alt="google pixel 6"
+              class="product__main-image"
+              id="main-image"
+          />
+
+          <div class="product__slider-wrap">
+              <div class="product__slider">
+                  <img
+                      src="images/slide2.png"
+                      alt="bike1"
+                      class="product__image product__image--active"
+                  />
+                  <img
+                      src="images/slide3.png"
+                      alt="google pixel 6"
+                      class="product__image"
+                  />
+                  <img
+                      src="images/slide4.png"
+                      alt="google pixel 6"
+                      class="product__image"
+                  />
+                  <img
+                      src="images/slide5.png"
+                      alt="google pixel 6"
+                      class="product__image"
+                  />
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <div class="compare__products">
+      <article class="product compare__product">
+        <img 
+          src="images/bike-first-sm.png"
+          alt="Sporty 4 bike"
+          class="product__photo"
+        >
+       <div class="naming">
+        <h3 class="product__title">Name</h3>
+        <p class="product__price">$ 1 000</p>
+       </div>
+        <p class="product__category">Description title</p>
+        <button class="button button-product">Discover more</button>
+      </article>
+    </div> 
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__info">
+      <div class="footer__logo">
+        <a href="#" class="footer__logo-link">
+          <img 
+            src="images/logo-white.svg"
+            alt="logo"
+          >
+        </a>
+      </div>
+      <nav class="footer__navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#about-us" class="navigation__link">About us</a>
+          </li>
+
+          <li class="navigation__item">
+            <a href="#shop" class="navigation__link">Shop</a>
+          </li>
+
+          <li class="navigation__item">
+            <a href="#founders" class="navigation__link">Founders</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#contact-us" class="navigation__link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="social">
+        <img src="images/insta.svg" class="social__icon">
+      </div>
+    </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike</title>
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="./styles/fonts.scss">
+    <script src="./main.js" defer></script>
+</head>
+<body class="page__body">
+  <header class="header">
+    <div class="container">
+      <div class="header__content">
+        <img class="head-left"  src="images/head-left.svg">
+        <img class="head-right"  src="images/head-right.svg">
+        <div class="top-content">
+        <div class="top-bar">
+          <a href="#" class="top-bar__logo-link">
+            <img 
+              class="top-bar__logo"
+              src="images/logo-2x.png"
+              alt="My bike logo"
+            >
+          </a>
+      
+          <div class="top-bar__icons">
+            <a href="#menu" class="icon icon--menu"></a>
+          </div>
+        </div>
+        <div class="subtitle">Embody a lifestyle of</br>comfort usability,</br>and cater to the</br>unique needs</div>
+        </div>
+        <div class="bottom-content">
+        <div class="header__bottom">
+          <button class="button button-discover">Discover more</button>
+          <a href="#contacts" class="button button-contact">
+          Contact Us
+          </a>
+        
+        </div>
+        <div class="lines">
+          <img src="images/lines.svg" alt="" class="lines__image">
+         
+        </div>
+      </div>
+      </div> 
+    </div>
+  </header>
+
+  <aside class="menu page__menu" id="menu">
+    <div class="container">
+      <div class="top-bar menu__top">
+        <a href="#" class="top-bar__logo-link">
+          <img 
+            class="top-bar__logo-side"
+            src="images/logo-white.svg"
+            alt="My bike logo"
+          >
+        </a>
+
+        <a href="#" class="icon icon--close">
+        </a>
+      </div>
+
+        <img class="icon-curly"  src="images/curly.svg">
+        <img class="icon-star"  src="images/star.svg">
+        <img class="icon-star--2"  src="images/star.svg">
+        <img class="icon-star--3"  src="images/star.svg">
+        <img class="icon-frame"  src="images/Frame.svg">
+
+      <div class="menu__bottom">
+        <nav class="nav menu__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about-us" class="nav__link">About us</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="#shop" class="nav__link">Shop</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="#founders" class="nav__link">Founders</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact-us" class="nav__link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a 
+          href="tell: +1 234 555-55-55" 
+          class="menu__call menu__phone-number"
+        >
+          +1 234 555-55-55
+        </a>
+        <a href="tell: +1 234 555-55-55"
+           class="menu__call menu__call-to-order">
+           Book a test ride
+        </a>
+      </div>
+    </div>
+  </aside>
+  <main class="main">
+    <section class="about-us" id="about-us">
+        <article class="about-us__block">
+          <div class="about-us__description">
+            <img class="star" src="./images/star.svg">
+
+            <h3 class="about-us__title">About us</h3>
+            <p class="about-us__subtitle">Welcome to Brave Bikes, where we redefine urban transportation with our exceptional cargo bikes. Founded with
+              a passion for enhancing lifestyles
+              and promoting sustainable mobility, 
+              we pride ourselves on creating bikes that prioritize comfort and usability. </p>
+           </div>
+           <!-- <div class="image"> -->
+            <img srcset="images/about-sm.png 375w,
+            images/about-us.png 480w,
+            images/about-us.png 800w"
+     sizes="(max-width: 375px) 280px,
+            (max-width: 480px) 440px,
+            800px"
+     src="images/about-us.png" alt="Elva dressed as a fairy" class="about-us__photo about-us__photo-first">
+        </article>
+
+        <article class="about-us__block about-us__block-reverse">
+          <div class="about-us__description">
+            <img class="star--2"  src="images/star.svg">
+
+            <h3 class="about-us__title">Our values</h3>
+            <p class="about-us__subtitle">Our founders' vision is to offer
+               a versatile and practical
+               solution for individuals and families, especially catering 
+               to the needs of children and the elderly.
+                With our cargo bikes, you can effortlessly navigate through
+                 city streets, enjoying a seamless and enjoyable ride while
+                  transporting your precious cargo. Experience the freedom and
+                   convenience that Brave Bikes brings to your daily life,
+               making every journey an adventure worth cherishing.</p>
+           </div>
+           <img srcset="images/values-sm.png 375w,
+           images/values.png 480w,
+           images/values.png 800w"
+    sizes="(max-width: 375px) 280px,
+           (max-width: 480px) 440px,
+           800px"
+    src="images/values.png" alt="Elva dressed as a fairy" class="about-us__photo">
+        </article>
+
+        <img class="curly"  src="images/curly.svg">
+        <img class="frame"  src="images/small-curl.svg">
+        <img class="flag"  src="images/flag.svg">
+
+    </section>
+    <div class="container">
+      <section class="compare" id="compare-bikes">
+        <h2 class="section-title">
+          Shop
+        </h2>
+
+        <div class="compare__products">
+          <article class="product compare__product">
+            <img 
+              src="images/bike-first-sm.png"
+              alt="Sporty 4 bike"
+              class="product__photo"
+            >
+           <div class="naming">
+            <h3 class="product__title">Name</h3>
+            <p class="product__price">$ 1 000</p>
+           </div>
+            <p class="product__category">Description title</p>
+            <a href="product-card.html">
+              <button class="button button-product">Discover more</button>
+            </a>
+          </article>
+
+          <article class="product compare__product">
+            <img 
+              src="images/bike-second-sm.png"
+              alt="Sporty 4 bike"
+              class="product__photo"
+            >
+
+            <div class="naming">
+              <h3 class="product__title">Name</h3>
+              <p class="product__price">$ 1 000</p>
+            </div>
+            <p class="product__category">Description title</p>
+            <button class="button button-product">Discover more</button>
+
+          </article>
+        </div> 
+      </section>
+      <section class="slider">
+        <div class="image-container">
+          <img src="images/slide1.png" id="content1" class="active img">
+          <img src="images/slide2.png" id="content2" class="img">
+          <img src="images/slide3.png" id="content3" class="img">
+          <img src="images/slide4.png" id="content4" class="img">
+          <img src="images/slide5.png" id="content5" class="img">
+
+        </div>
+        <button id="prev" onclick="prev()"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M16.0603 21.546C16.3415 21.2648 16.4995 20.8833 16.4995 20.4855C16.4995 20.0878 16.3415 19.7063 16.0603 19.425L8.63533 12L16.0603 4.57505C16.3336 4.29215 16.4848 3.91324 16.4813 3.51995C16.4779 3.12665 16.3202 2.75043 16.0421 2.47232C15.7639 2.19421 15.3877 2.03646 14.9944 2.03304C14.6011 2.02962 14.2222 2.18081 13.9393 2.45405L5.45383 10.9396C5.17262 11.2208 5.01465 11.6023 5.01465 12C5.01465 12.3978 5.17262 12.7793 5.45383 13.0605L13.9393 21.546C14.2206 21.8273 14.6021 21.9852 14.9998 21.9852C15.3976 21.9852 15.779 21.8273 16.0603 21.546Z" fill="#242424"/>
+          </svg> </button>
+        <button id="next" onclick="next()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M7.93967 2.45395C7.65847 2.73524 7.50049 3.1167 7.50049 3.51445C7.50049 3.9122 7.65847 4.29366 7.93967 4.57495L15.3647 12L7.93967 19.425C7.66643 19.7079 7.51524 20.0868 7.51866 20.4801C7.52208 20.8733 7.67983 21.2496 7.95794 21.5277C8.23606 21.8058 8.61228 21.9635 9.00557 21.967C9.39887 21.9704 9.77777 21.8192 10.0607 21.546L18.5462 13.0604C18.8274 12.7792 18.9854 12.3977 18.9854 12C18.9854 11.6022 18.8274 11.2207 18.5462 10.9395L10.0607 2.45395C9.77938 2.17274 9.39792 2.01477 9.00017 2.01477C8.60243 2.01477 8.22096 2.17274 7.93967 2.45395Z" fill="#242424"/>
+          </svg></button>
+      </section>  
+      <section class="founders">
+       <!-- <img src="images/heart.svg" class="heart"> -->
+        <h2 class="section-title section-title--founders">Founders</h2>
+        <div class="founders__product">
+          <article class="founders__about">
+            <div class="founders__quotes"></div>
+            <p class="founders__text">At Brave Bikes, we believe that a cargo bike is not just a mode of transportation, but a gateway to a new lifestyle filled with freedom, joy, and meaningful connections. We design our bikes with utmost care, ensuring exceptional comfort and usability.</p>
+         
+            <div class="founders__info">
+              <img 
+                 src="images/face1.png"
+                 alt="Sporty 4 bike"
+                 class="founders__photo"
+              >
+               <div class="founders__description">
+                 <h3 class="founders__title">Name</h3>
+                 <p class="founders__job">Job title</p>
+               </div>
+            </div>
+          </article>
+          <article class="founders__about">
+            <div class="founders__quotes"></div>
+            <p class="founders__text">At Brave Bikes, we believe that a cargo bike is not just a mode of transportation, but a gateway to a new lifestyle filled with freedom, joy, and meaningful connections. We design our bikes with utmost care, ensuring exceptional comfort and usability.</p>
+         
+            <div class="founders__info">
+              <img 
+                 src="images/face2.png"
+                 alt="Sporty 4 bike"
+                 class="founders__photo"
+              >
+               <div class="founders__description">
+                 <h3 class="founders__title">Name</h3>
+                 <p class="founders__job">Job title</p>
+               </div>
+            </div>
+          </article>
+        </div>
+        </section>
+      <section class="contacts" id="contacts">
+      <h2 class="section-title">
+        Contact us
+      </h2>
+      <p class="section-description">
+        If you have any questions,
+        please, let us know
+      </p>
+      <div class="contacts__wrapper">
+        <div class="container">
+        <div class="contacts__form">
+          <form
+            onsubmit="this.reset(); return false;"
+            action="http://localhost:3000/api"
+            method="post"
+          >
+          <div class="required">
+            <label for="name">
+              <input type="text"
+                name="name"
+                placeholder="Name*"
+                class="contacts__form--field name"
+              >
+            </label>
+            <label for="email">
+              <input 
+                type="text"
+                name="email"
+                placeholder="Email*"
+                required
+                class="contacts__form--field email"
+              >
+            </label>
+          </div>
+          <div class="general">
+          <div class="data">
+            <label for="tel">
+              <input 
+                type="tel"
+                name="tel"
+                placeholder="Phone"
+                class="contacts__form--field phone"
+              >
+            </label>
+            <label for="country">
+              <input 
+                type="text"
+                name="country"
+                placeholder="Your country"
+  
+                class="contacts__form--field country"
+              >
+            </label>
+          </div>
+            <textarea
+              placeholder="Message"
+              name="message"
+              rows="4"
+              class="contacts__form--textarea"
+            ></textarea>
+           </div>
+            <button class="button">Send</button>
+          </form>
+        </div>
+      </div>
+      </div>
+      </section>
+    </div>
+    
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__info">
+      <div class="footer__logo">
+        <a href="#" class="footer__logo-link">
+          <img 
+            src="images/logo-white.svg"
+            alt="logo"
+          >
+        </a>
+      </div>
+      <nav class="footer__navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#about-us" class="navigation__link">About us</a>
+          </li>
+
+          <li class="navigation__item">
+            <a href="#shop" class="navigation__link">Shop</a>
+          </li>
+
+          <li class="navigation__item">
+            <a href="#founders" class="navigation__link">Founders</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#contact-us" class="navigation__link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="social">
+        <img src="images/insta.svg" class="social__icon">
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  </body>
+</html>
