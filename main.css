@@ -93,19 +93,39 @@
 }
 
 .head-left {
+  right: -20px;
+  width: 50px;
+  height: 30px;
+  top: 446px;
   position: absolute;
-  width: 146px;
-  height: 90px;
-  right: -106px;
-  top: 400px;
+  transform: rotate(90deg);
+}
+@media (min-width: 1024px) {
+  .head-left {
+    position: absolute;
+    width: 146px;
+    height: 90px;
+    right: -106px;
+    top: 400px;
+    transform: none;
+  }
 }
 
 .head-right {
+  width: 46px;
+  height: 28px;
   position: absolute;
-  width: 146px;
-  height: 90px;
-  left: -70px;
-  top: 372px;
+  top: 200px;
+  left: 71px;
+}
+@media (min-width: 1024px) {
+  .head-right {
+    position: absolute;
+    width: 146px;
+    height: 90px;
+    left: -70px;
+    top: 372px;
+  }
 }
 
 .icon {
