@@ -1,11 +1,11 @@
 .header {
-  background-image: url(../images/header-bg-mobile.png);
+  background-image: url(images/header-bg-mobile.png);
   background-size: cover;
   background-position: top right;
 }
 @media (min-width: 1024px) {
   .header {
-    background-image: url(../images/header-bg-desktop.webp);
+    background-image: url(images/header-bg-desktop.webp);
   }
 }
 .header__content {
