@@ -10,7 +10,7 @@
 </head>
   <body class="page__body">
     <header class="header-card">
-      <div class="container">
+      <div class="container-product">
         <div class="top-content">
           <div class="top-bar">
             <a href="#" class="top-bar__logo-link">
@@ -86,93 +86,44 @@
   </aside>
 
   <section class="compare" id="compare-bikes">
+    <div class="container-product">
 
+      
+    <div class="product-inner-card">
+      <article class="product product__card">
+        <div class="column">
 
-		<div class="column">
-      <!-- <img id="slideLeft" class="arrow" src="images/arrow-left.svg"> -->
-
-			<img id="featured" src="images/slide1.png">
-      <!-- <img id="slideRight" class="arrow" src="images/arrow-right.svg"> -->
-
-			<div id="slide-wrapper">
-
-				<div id="slider">
-					<img class="thumbnail active" src="images/slide1.png">
-					<img class="thumbnail" src="images/slide2.png">
-					<img class="thumbnail" src="images/slide3.png">
-
-					<img class="thumbnail" src="images/slide4.png">
-					<img class="thumbnail" src="images/slide5.png">
-
-				</div>
-			</div>
-		</div>
-
-		<div class="column">
-			<h1>Awesome Shoes</h1>
-			<hr>
-			<h3>$89.99</h3>
-
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
-			<input value=1 type="number">
-			<a class="btn btn-dark" href="#">Add to Cart</a>
-		</div>
-
-	</div>
-
-
-    <div class="product">
-      <div class="product__images">
-          <img
-              src="images/slide1.png"
-              alt="google pixel 6"
-              class="product__main-image"
-              id="main-image"
-          />
-
-          <div class="product__slider-wrap">
-              <div class="product__slider">
-                  <img
-                      src="images/slide2.png"
-                      alt="bike1"
-                      class="product__image product__image--active"
-                  />
-                  <img
-                      src="images/slide3.png"
-                      alt="google pixel 6"
-                      class="product__image"
-                  />
-                  <img
-                      src="images/slide4.png"
-                      alt="google pixel 6"
-                      class="product__image"
-                  />
-                  <img
-                      src="images/slide5.png"
-                      alt="google pixel 6"
-                      class="product__image"
-                  />
-              </div>
+          <img id="slideLeft" class="arrow" onclick="leftSlide()" src="images/arrow-left.svg">
+    
+          
+          <img id="featured" src="images/slide2.webp">
+    
+          <img id="slideRight" class="arrow" onclick="rightSlide()" src="images/arrow-right.svg">
+    
+          <div id="slide-wrapper">
+    
+            <div id="slider">
+              <img class="thumbnail active" src="images/slide2.webp">
+              <img class="thumbnail" src="images/slide3.webp">
+              <img class="thumbnail" src="images/slide4.webp">
+              <img class="thumbnail" src="images/slide5.webp">
+              <!-- <img class="thumbnail" src="images/slide5.webp"> -->
+    
+            </div>
           </div>
-      </div>
-  </div>
-
-    <div class="compare__products">
-      <article class="product compare__product">
-        <img 
-          src="images/bike-first-sm.png"
-          alt="Sporty 4 bike"
-          class="product__photo"
-        >
-       <div class="naming">
-        <h3 class="product__title">Name</h3>
-        <p class="product__price">$ 1 000</p>
-       </div>
-        <p class="product__category">Description title</p>
-        <button class="button button-product">Discover more</button>
+        </div>
+        <div class="desl">
+         <div class="product__name">
+          <h3 class="product__title">Name</h3>
+          <p class="product__price">$ 1 000</p>
+         </div>
+          <p class="product__text">Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+          <button class="button button-product">Contact us</button>
+        </div>
       </article>
     </div> 
+  </div>
+</div>
   </section>
 
   <footer class="footer">

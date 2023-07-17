@@ -1,0 +1,52 @@
+.nav {
+  font-weight: 500;
+  margin-top: 77px;
+
+
+   &__list {
+    list-style: none;
+    margin: 0 0 44px;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    @include onDesktop {
+      gap: 50px;
+    }
+  }
+
+  &__link {
+    font-family:'KyivType Serif Medium2';
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+
+    @include onDesktop {
+      font-size: 42px;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      display: block;
+      height: 1px;
+      width: 100%;
+      background-color: #fff;
+
+      transition: transform 0.3s;
+      transform: scale(0);
+      transform-origin: left;
+    }
+
+    &:hover::after {
+      transform: scale(1);
+    }
+  }
+}

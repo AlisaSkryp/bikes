@@ -1,0 +1,129 @@
+
+
+.founders__about{ 
+  display: grid;
+  color: #000;
+  border-radius: 10px;
+  border: 1px double  #242424;
+  border-right: 4px double  #242424;
+  border-bottom: 4px double  #242424;
+  padding: 30px 20px 20px 20px;
+  gap:24px;
+}
+
+  .founders__quotes {
+    background-image: url("../images/quotation.svg");
+    height: 30px;
+    width: 42px;
+    object-fit:cover;
+    background-repeat: no-repeat;
+  }
+
+  .founders__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+.founders {
+  position: relative;
+  margin-bottom: 40px;
+  @include onDesktop {
+    margin-bottom: 100px;
+
+  }
+  &__title {
+    font-family:'KyivType Sans Light';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    }
+  &__text {
+    font-family:'KyivType Sans Light';
+    font-size: 16px;
+    font-style: normal;
+    line-height: 130%;
+    margin-bottom: 40px;
+  }
+    &__job {
+      font-family:'KyivType Sans Light';
+      font-size: 23px;
+      font-style: normal;
+      line-height: 130%;
+      margin-bottom: 40px;
+    }
+  &__photo {
+    width: 115px;
+    height: 119px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-right: 24px;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  &__product {
+    display: grid;
+    row-gap: 48px;
+    
+
+    @include onDesktop {
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 40px;
+      justify-item: stretch;
+    }
+
+    @include onTablet {
+      justify-item: center;
+    }
+  }
+}
+
+.naming {
+  display: flex;
+  justify-content: space-between;
+  font-family:'KyivType Sans Light';
+  margin-bottom: 12px;
+ 
+
+  @include onDesktop {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+h3, p{
+  margin: 0;
+  padding: 0;
+}
+
+.button-product {
+
+  @include onTablet {
+    display: flex;
+    align-items: left;
+    margin: 0;
+  }
+
+  @include onDesktop {
+    display: flex;
+    align-items: left;
+    margin: 0;
+  }
+}
+// .heart {
+// position: absolute;
+// width: 33px;
+// height: 34px;
+// right: 39px;
+// top: 3px;
+
+// @include onDesktop {
+//   width: 57px;
+//   height: 59px;
+//   right: 362px;
+//   top: 3px;
+// }

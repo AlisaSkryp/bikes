@@ -1,0 +1,114 @@
+.header {
+  background-image: url(../images/header-bg-mobile.png);
+  background-size: cover;
+  background-position: top right;
+
+  @include onDesktop {
+    background-image: url(../images/header-bg-desktop.webp);
+  }
+
+  &__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+   
+
+    @include onTablet {
+    padding-bottom: 24px;
+    }
+
+    @include onDesktop {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+
+      padding-bottom: 24px;
+      }
+  }
+
+    &__button {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: -1.5px;
+    color: #fff;
+    text-align: center;
+
+    @include onTablet {
+      font-size: 64px;
+      white-space: nowrap;
+    }
+
+    @include onDesktop {
+      font-size: 80px;
+    }
+  }
+}
+
+.lines {
+  padding-bottom: 60px;
+  width: 283px;
+
+  &__image {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+  @include onDesktop {
+ 
+   width: 577px;
+  }
+}
+
+.bottom-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+  @include onDesktop {
+    
+    padding-bottom: 24px;
+    }
+}
+
+.button-discover {
+  @include onDesktop {
+    
+    margin-bottom: 24px;
+}
+
+}
+
+.head-left{
+  position: absolute;
+  width: 146px;
+  height: 90px;
+  right: -106px;
+  top: 400px;
+
+}
+
+.head-right{
+  position: absolute;
+  width: 146px;
+  height: 90px;
+  left: -70px;
+  top: 372px;
+
+}

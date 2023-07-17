@@ -1,0 +1,50 @@
+.top-bar {
+  font-family:'KyivType Sans Light';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 24px;
+
+  @include onTablet{
+    padding-block: 36px;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__logo-link {
+    display: flex;
+  }
+
+  &__logo {
+    height: 38px;
+
+    @include hover(transform, scale(1.2));
+
+    @include onTablet { 
+      height: 56px;
+    }
+  }
+
+  &__logo-side {
+    height: 50px;
+
+    @include onDesktop {
+      height: 82px;
+    }
+  }
+}
+.subtitle {
+  font-family:'KyivType Sans Light';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  
+  @include onDesktop {
+    font-size: 20px;
+  
+  }
+}
